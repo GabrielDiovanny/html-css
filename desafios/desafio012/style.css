@@ -1,0 +1,76 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+
+/* CABEÇALHO */
+
+header {
+  background-color: black;
+  color: white;
+  padding: 45px;
+}
+
+header h1 {
+  font-size: 170px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header p {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* CONTEUDO */
+
+main p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 48px;
+  padding: 10px;
+  display: inline-block;
+  margin: 50px 1250px 50px 50px;
+  word-spacing: 10px;
+  line-height: 2;
+
+
+}
+
+main p.fundo {
+  background-color: rgb(255, 255, 255);
+}
+
+.fundo1 {
+  background-image: url(imagens/background001.jpg);
+  background-repeat: no-repeat;
+  background-position: right cen    ter;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+div.fundo1 p , div.fundo2 p {
+  background-color: rgba(0, 0, 0, 0.253);
+}
+
+.fundo2 {
+  background-image: url(imagens/background002.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+footer {
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}

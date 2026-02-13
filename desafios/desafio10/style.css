@@ -1,0 +1,198 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'android';
+    src: url(midiasdesafio/fontes/idroid.otf) format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E8E7C4;
+}
+
+
+/* CABEÇALHO DO SITE */
+
+header {
+    background-image: linear-gradient(to top, #2f492c , #70a069
+    );
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 10px 10px 80px;
+    color: white;
+}
+
+header p {
+    max-width: 600px;
+    margin: auto;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 45px;
+}
+
+header h3 {
+    text-align: center;
+    font-size: 10;
+    margin-top: 30px;
+}
+
+nav {
+    display: flex;
+    font-size: 14px;
+    gap: 40px;
+    padding-top: 60px;
+    color: #7ED872;
+}
+
+.home:hover  #home {
+    color: #478b3e;
+}
+
+.not:hover  #not {
+    color: #478b3e;
+}
+
+.cur:hover  #cur {
+    color: #478b3e;
+}
+
+.fale:hover  #fale {
+    color: #478b3e;
+}
+
+
+
+
+
+/* CONTEUDO DO SITE */
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px 140px;
+    box-shadow: left 100px;
+}
+
+main p {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+    text-indent: 30px;
+    line-height: 1.6;
+}
+main h1 , h2 {
+    font-family: 'Android';
+    color: #08410E;
+    font-weight: lighter;
+}
+
+.versao1 {
+    background-image: linear-gradient(to right, #b1ffa7 , rgb(255, 255, 255));
+    margin: 30px 0px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+main  #prift {
+    height: 340px;
+    margin: 0 auto;
+    display: block;
+}
+
+#irina {
+    height: 510px;
+    margin: 50px auto;
+    display: block;
+
+}
+
+#bugdroid {
+    height: 420px;
+    margin: 50px auto;
+    display: block;
+}
+
+main iframe {
+    width: 1000px;
+    height: 520px;
+    margin: 90px auto;
+    display: block;
+}
+
+.videoo {
+    background-color: #08410E;
+}
+
+
+
+/* RODAPÉ DO SITE */
+
+footer {
+    background-color: white;
+    padding: 20px;
+    margin: 0px 140px;
+}
+
+footer h1 {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 10px
+}
+
+footer p {
+        font-size: 25px;
+        text-indent: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        padding: 40px 20px;
+}
+
+
+.base {
+    background-color: rgb(192, 191, 191);
+    border-radius: 20px;
+}
+
+
+
+#titulobase {
+    color: white;
+    background-color: #478b3e;
+    border-radius: 20px;
+}
+
+
+
+.caixa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.caixa p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.final {
+    background-color: #08410E;
+    color: white;
+}
+
+.final h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.final .negrito {
+    font-weight: bold;
+}

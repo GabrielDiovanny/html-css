@@ -1,0 +1,39 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+main {
+  background-color: black;
+  height: 900px;
+
+}
+
+aside {
+  background-color: aqua;
+  position: fixed;
+  height: 100%;
+  width: 190px;
+}
+
+header {
+  background-color: red;
+  width: 100vw;
+  height: 100px;
+}
+
+footer {
+  background-color: blue;
+}
+
+.conteudo {
+  margin-left: 190px;
+}
